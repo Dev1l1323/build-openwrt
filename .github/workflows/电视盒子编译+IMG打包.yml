@@ -150,7 +150,7 @@ on:
       kernel_repo:
         description: "Set the kernel repository"
         required: false
-        default: "ophub/kernel"
+        default: "Dev1l1323/kernel"
         type: Dev1l1323
         options:
           - Dev1l1323/kernel
