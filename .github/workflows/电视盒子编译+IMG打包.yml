@@ -151,9 +151,9 @@ on:
         description: "Set the kernel repository"
         required: false
         default: "ophub/kernel"
-        type: choice
+        type: Dev1l1323
         options:
-          - ophub/kernel
+          - Dev1l1323/kernel
       kernel_usage:
         description: "Set the tags of the stable kernel."
         required: false
@@ -179,7 +179,7 @@ on:
         type: choice
         options:
           - angel
-          - yourname
+          - Dev1l
 
 env:
   FEEDS_CONF: config/${{ inputs.source_branch }}/feeds.conf.default
