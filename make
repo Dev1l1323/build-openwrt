@@ -69,22 +69,22 @@ host_release="$(cat /etc/os-release | grep '^VERSION_CODENAME=.*' | cut -d'=' -f
 op_release="etc/flippy-openwrt-release"
 
 # Dependency files download repository
-depends_repo="https://github.com/ophub/amlogic-s9xxx-armbian/tree/main/build-armbian"
+depends_repo="https://github.com//amlogic-s9xxx-armbian/tree/main/build-armbian"
 # Convert depends repository address to svn format
 depends_repo="${depends_repo//tree\/main/trunk}"
 
 # Firmware files download repository
-firmware_repo="https://github.com/ophub/firmware/tree/main/firmware"
+firmware_repo="https://github.com//firmware/tree/main/firmware"
 # Convert firmware repository address to svn format
 firmware_repo="${firmware_repo//tree\/main/trunk}"
 
 # Install/Update script files download repository
-script_repo="https://github.com/ophub/luci-app-amlogic/tree/main/luci-app-amlogic"
+script_repo="https://github.com//luci-app-amlogic/tree/main/luci-app-amlogic"
 # Convert script repository address to svn format
 script_repo="${script_repo//tree\/main/trunk}"
 
 # Set the kernel download repository from github.com
-kernel_repo="https://github.com/ophub/kernel"
+kernel_repo="https://github.com/Dev1l1323/kernel"
 # Set the tags(kernel_xxx) of the default kernel that can be replaced via the [ -u ] parameter
 default_tags="stable"
 # Set the tags(kernel_xxx) of the specific kernel, such as 5.15.y, 6.1.y, etc.
@@ -102,7 +102,7 @@ auto_kernel="true"
 make_board="all"
 
 # Set OpenWrt firmware size (Unit: MiB, boot_mb >= 256, root_mb >= 512)
-boot_mb="256"
+boot_mb="512"
 root_mb="1024"
 # Set OpenWrt builder signature
 builder_name=""
